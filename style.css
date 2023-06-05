@@ -1,0 +1,29 @@
+@font-face {
+  font-family: UFC;
+  src: url(sternbach.ttf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: UFC, cursive;
+  height: 100vh;
+  background-color: #d33818;
+  color: #fbffff;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+button {
+  border-radius: 5px;
+  font-size: 22px;
+  cursor: pointer;
+  border: none;
+  padding: 5px 10px;
+  background-color: #a82222;
+  color: #fbffff;
+  font-family: UFC;
+}
