@@ -17,7 +17,7 @@ body {
   margin: 100px auto;
   border: 6px solid black;
   border-radius: 5px;
-  width: 60%;
+  width: 50%;
   height: 60%;
   background-color: #a82222;
 }
@@ -40,7 +40,7 @@ h1 {
 
 button {
   border-radius: 5px;
-  font-size: 22px;
+  font-size: 25px;
   cursor: pointer;
   border: none;
   padding: 10px 15px;
