@@ -14,8 +14,10 @@ body {
 }
 
 .stageFight {
-  margin: 0 auto;
-  width: 70%;
+  margin: 100px auto;
+  border: 6px solid black;
+  border-radius: 5px;
+  width: 60%;
   height: 60%;
   background-color: #a82222;
 }
