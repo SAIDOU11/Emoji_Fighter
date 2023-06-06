@@ -16,7 +16,7 @@ let fighters = [
   "🦕",
   "🦁",
 ];
-let stageEl = document.getElementById("stage");
+let stageEl = document.getElementById("stage-fighter");
 let fightBtn = document.getElementById("fightBtn");
 
 fightBtn.addEventListener("click", function () {

@@ -18,7 +18,7 @@ body {
   border: 6px solid black;
   border-radius: 5px;
   width: 50%;
-  height: 60%;
+  height: 50%;
   background-color: #a82222;
 }
 
@@ -31,10 +31,11 @@ h1 {
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 300px;
-  padding: 30px 0;
-  font-size: 60px;
   margin: 0;
+}
+
+#stage-fighter {
+  font-size: 60px;
   gap: 5px;
 }
 
