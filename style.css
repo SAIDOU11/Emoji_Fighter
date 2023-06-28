@@ -14,16 +14,16 @@ body {
 }
 
 .stageFight {
-  margin: 100px auto;
-  border: 6px solid black;
-  border-radius: 5px;
-  width: 50%;
+  margin: 10em auto;
+  border: 0.3em solid black;
+  border-radius: 0.3em;
+  width: 80%;
   height: 50%;
   background-color: #a82222;
 }
 
 h1 {
-  font-size: 35px;
+  font-size: 2.125rem;
 }
 
 #stage {
@@ -35,18 +35,44 @@ h1 {
 }
 
 #stage-fighter {
-  font-size: 60px;
-  gap: 5px;
+  font-size: 2.5rem;
+  gap: 1rem;
 }
 
 button {
   border-radius: 5px;
-  font-size: 25px;
+  font-size: 1rem;
   cursor: pointer;
   border: none;
-  padding: 10px 15px;
+  padding: 1em;
   background-color: #d2ad42;
   color: #fbffff;
   font-family: UFC;
   color: black;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  .stageFight {
+    width: 70%;
+  }
+  #stage-fighter {
+    font-size: 3.725rem;
+    gap: 1.3em;
+  }
+  button {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .stageFight {
+    width: 50%;
+  }
+  #stage-fighter {
+    font-size: 3.725rem;
+    gap: 1.5em;
+  }
 }
